@@ -6,7 +6,7 @@ import { Logo } from '../components/Logo';
 
 export default () => (
     <Container>
-        <StatusBar translucent={false} barStyle='light-content' />
+        <StatusBar translucent={true} barStyle='light-content' />
         <Logo />
     </Container>
 );
